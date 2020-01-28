@@ -63,6 +63,11 @@ inoremap jk <ESC>
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Snippets
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Python Boilerplate
+nnoremap <leader>py :-1read ~\simon-vimrc\snippets\pyboiler.py<cr>11jA<cr><tab>
+
+" C# Boilerplate
+nnoremap <leader>cs :-1read ~\simon-vimrc\snippets\csboiler.cs<cr>10j2ea
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
