@@ -11,6 +11,8 @@
 "
 " Sections:
 "    -> General
+"    -> Personal
+"    -> Snippets
 "    -> VIM user interface
 "    -> Colors and Fonts
 "    -> Files and backups
