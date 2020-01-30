@@ -69,6 +69,9 @@ nnoremap <leader>py :-1read ~\simon-vimrc\snippets\pyboiler.py<cr>11jA<cr><tab>
 " C# Boilerplate
 nnoremap <leader>cs :-1read ~\simon-vimrc\snippets\csboiler.cs<cr>10j2ea
 
+" C# Windows Forms BP
+nnoremap <leader>csf :-1read ~\simon-vimrc\snippets\GUIApp.cs<cr>26jA<cr>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
