@@ -72,6 +72,9 @@ nnoremap <leader>cs :-1read ~\simon-vimrc\snippets\csboiler.cs<cr>10j2ea
 " C# Windows Forms BP
 nnoremap <leader>csf :-1read ~\simon-vimrc\snippets\GUIApp.cs<cr>26jA<cr>
 
+" C Boiler
+nnoremap <leader>cb :-1read ~\simon-vimrc\snippets\cboiler.c<cr>11ji<cr>
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
