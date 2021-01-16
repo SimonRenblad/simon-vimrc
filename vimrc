@@ -60,6 +60,13 @@ command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 " Remap ESC
 inoremap jk <ESC>
 
+" Save wrapping
+augroup SaveManualFolds
+    autocmd!
+    au BufWinLeave, BufLeave ?* silent! mkview
+    au BufWinEnter           ?* silent! loadview
+augroup END
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => Snippets
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
